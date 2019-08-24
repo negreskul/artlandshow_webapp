@@ -24,6 +24,9 @@
               "src/assets"
             ],
             "styles": [
+              {
+                "input": "src/artlandshow-theme.scss"
+              },
               "src/styles.css"
             ],
             "scripts": []
@@ -120,6 +123,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "artlandshow-app"
 }

@@ -1,0 +1,22 @@
+.description {
+    text-align: center;
+    padding: 30px 20%;
+    line-height: 24px;
+    font-size: 20px;
+}
+
+.video-block {
+    position: relative;
+}
+
+.play-button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+video {
+    width: 100%;
+}
