@@ -11,7 +11,7 @@
       <ng-template mat-tab-label>
         О нас
       </ng-template>
-      IT'S ALL ABOUT US
+      <tab-about-us> </tab-about-us>
     </mat-tab>
     <mat-tab>
       <ng-template mat-tab-label>
@@ -41,12 +41,17 @@
       <ng-template mat-tab-label>
         Контакты
       </ng-template>
-      ОБРАТНАЯ СВЯЗЬ
+      <tabs-contacts></tabs-contacts>
     </mat-tab>
   </mat-tab-group>
   <div class="footer">
-    <div>links to socials</div>
+    <div class="_123socials">
+      <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/artlandshow/"><fa-icon [icon]="faInstagram"></fa-icon></a>
+      <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCoE2eoBEsHKw2I3XZeyx67g"><fa-icon [icon]="faYoutube"></fa-icon></a>
+      <a target="_blank" rel="noopener noreferrer" href="https://vk.com/artlandshow"><fa-icon [icon]="faVk"></fa-icon></a>
+      <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/%D0%A2%D0%B0%D0%BD%D1%86%D0%B5%D0%B2%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5-%D1%88%D0%BE%D1%83-Artland-Show-1026751877506940/?_rdc=2&_rdr"><fa-icon [icon]="faFacebook"></fa-icon></a>
+    </div>
     <span>© 2019 Artland Show dancing project</span>
-    <span>+7 926 22 77 468</span>
+    <a class="phonenumber" href="tel:+7 926 22 77 468">+7 926 22 77 468</a>
   </div>
 </div>

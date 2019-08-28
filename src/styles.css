@@ -3,6 +3,11 @@ html {
     background-color: #0C0E0D;
 }
 
+a {
+    text-decoration: none !important;
+    color: inherit;
+}
+
 body {
     margin: 0 !important;
     height: 100%;
@@ -17,4 +22,8 @@ body {
 
 video {
     outline: none;
+}
+
+.mat-tab-group.mat-primary .mat-ink-bar {
+    background-color: #c58e10;
 }

@@ -1,1 +1,19 @@
-<p>contacts works!</p>
+<p>Телефон: <a class="phonenumber" href="tel:+7 926 22 77 468">+7 926 22 77 468</a> </p>
+<p>Email: showartland@gmail.com</p>
+<p>Адрес: г. Москва</p>
+<form>
+    <mat-form-field class="outline" appearance="outline" class="col-xs-12">
+        <mat-label >Имя</mat-label>
+        <input matInput>
+    </mat-form-field>
+    <mat-form-field appearance="outline" class="col-xs-12">
+        <mat-label class="outline">Email</mat-label>
+        <input matInput required id="email">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="col-xs-12">
+        <mat-label class="outline">Сообщение</mat-label>
+        <textarea matInput></textarea>
+    </mat-form-field>
+</form>
+<button mat-stroked-button>Отправить</button>

@@ -1,0 +1,22 @@
+.description {
+    text-align: left;
+    line-height: 24px;
+    font-size: 20px;
+    margin: 5% 15%;
+    text-indent: 30px;
+}
+
+.text {
+    margin-top: 20px;
+    margin-right: -200px;
+}
+
+:host {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-us-img {
+    height: 600px;
+    z-index: -1;
+}

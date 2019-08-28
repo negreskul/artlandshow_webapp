@@ -1,7 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
-import { MatTabsModule } from '@angular/material';
+import { MatTabsModule, MatFormFieldModule, MatInputModule } from '@angular/material';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { AppComponent } from './app.component';
 import { MainComponent } from './tabs/main/main.component';
@@ -11,6 +12,8 @@ import { ProjectsComponent } from './tabs/projects/projects.component';
 import { ServicesComponent } from './tabs/services/services.component';
 import { TeamComponent } from './tabs/team/team.component';
 import { ContactsComponent } from './tabs/contacts/contacts.component';
+import {MatButtonModule} from '@angular/material/button';
+
 
 @NgModule({
   declarations: [
@@ -26,7 +29,11 @@ import { ContactsComponent } from './tabs/contacts/contacts.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MatTabsModule
+    MatTabsModule,
+    MatFormFieldModule,
+    MatInputModule,
+    FontAwesomeModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

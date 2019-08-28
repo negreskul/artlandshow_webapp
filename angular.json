@@ -27,7 +27,8 @@
               {
                 "input": "src/artlandshow-theme.scss"
               },
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap-css-only/css/bootstrap-grid.min.css"
             ],
             "scripts": []
           },
