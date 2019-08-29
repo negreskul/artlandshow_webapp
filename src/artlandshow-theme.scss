@@ -2,7 +2,7 @@
 // Plus imports for other components in your app.
 
 $custom-typography: mat-typography-config(
-  $font-family: "'Comfortaa', Roboto, 'Helvetica Neue', sans-serif",
+  $font-family: "'Alice', Roboto, 'Helvetica Neue', sans-serif",
 );
 
 // Include the common styles for Angular Material. We include this here so that you only
@@ -23,12 +23,12 @@ $artlandshow-gold: (
   500: #cacb30,
   600: #caba28,
   700: #c8a51d,
-  800: #c58f10,
+  800: #c58e10,
   900: #bf6a00,
-  A100: #c3caf1,
-  A200: #9aa7e8,
-  A400: #4b69d8,
-  A700: #003cb9,
+  A100: #ebedec,
+  A200: #dee0df,
+  A400: #a5a7a6,
+  A700: #4b4c4b,
   contrast: (
     50: $dark-primary-text,
     100: $dark-primary-text,
@@ -47,7 +47,7 @@ $artlandshow-gold: (
   )
 );
 
-$artlandshow-app-primary: mat-palette($artlandshow-gold, A800);
+$artlandshow-app-primary: mat-palette($artlandshow-gold, 800, 300, 700);
 $artlandshow-app-accent:  mat-palette($artlandshow-gold, A200, A100, A400);
 
 // The warn palette is optional (defaults to red).

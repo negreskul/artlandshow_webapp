@@ -1,11 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-repertoire',
+  selector: 'tab-repertoire',
   templateUrl: './repertoire.component.html',
   styleUrls: ['./repertoire.component.css']
 })
 export class RepertoireComponent implements OnInit {
+
+  public mysteryImgSrc = '../../assets/poster.jpg';
 
   constructor() { }
 

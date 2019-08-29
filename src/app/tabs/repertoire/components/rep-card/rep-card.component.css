@@ -1,0 +1,27 @@
+:host {
+    display: inline-block;
+    width: 50%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+img.background-image {
+    width: 100%;
+}
+
+.card {
+    position: relative;
+}
+
+.title-block {
+    position: absolute;
+    bottom: 25px;
+    right: 23px;
+    background-color: #000000d4;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 25px;
+    user-select: none;
+    color: #ddd;
+}
+

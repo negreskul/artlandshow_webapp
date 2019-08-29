@@ -12,7 +12,7 @@ body {
     margin: 0 !important;
     height: 100%;
     color: white;
-    font-family: 'Comfortaa', Roboto, 'Helvetica Neue', sans-serif;
+    font-family: 'Alice', Roboto, 'Helvetica Neue', sans-serif;
 }
 
 [hidden],
@@ -22,8 +22,4 @@ body {
 
 video {
     outline: none;
-}
-
-.mat-tab-group.mat-primary .mat-ink-bar {
-    background-color: #c58e10;
 }

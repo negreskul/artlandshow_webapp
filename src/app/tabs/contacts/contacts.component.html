@@ -1,5 +1,5 @@
 <p>Телефон: <a class="phonenumber" href="tel:+7 926 22 77 468">+7 926 22 77 468</a> </p>
-<p>Email: showartland@gmail.com</p>
+<p>Email: <a class="phonenumber" href="mailto:showartland@gmail.com">showartland@gmail.com</a> </p>
 <p>Адрес: г. Москва</p>
 <form>
     <mat-form-field class="outline" appearance="outline" class="col-xs-12">
@@ -7,12 +7,12 @@
         <input matInput>
     </mat-form-field>
     <mat-form-field appearance="outline" class="col-xs-12">
-        <mat-label class="outline">Email</mat-label>
-        <input matInput required id="email">
+        <mat-label>Email</mat-label>
+        <input matInput required id="email" type="email" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
     </mat-form-field>
 
     <mat-form-field appearance="outline" class="col-xs-12">
-        <mat-label class="outline">Сообщение</mat-label>
+        <mat-label>Сообщение</mat-label>
         <textarea matInput></textarea>
     </mat-form-field>
 </form>

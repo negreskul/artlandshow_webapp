@@ -1,47 +1,26 @@
 <div class="main-page">
   <div class="logo"></div>
   <mat-tab-group dynamicHeight mat-stretch-tabs>
-    <mat-tab>
-      <ng-template mat-tab-label>
-        Главная
-      </ng-template>
+    <mat-tab label="Главная">
       <tab-main></tab-main>
     </mat-tab>
-    <mat-tab>
-      <ng-template mat-tab-label>
-        О нас
-      </ng-template>
+    <mat-tab label="О нас">
       <tab-about-us> </tab-about-us>
     </mat-tab>
-    <mat-tab>
-      <ng-template mat-tab-label>
-        Репертуар
-      </ng-template>
-      ЧЕ УМЕЕМ
+    <mat-tab label="Репертуар">
+      <tab-repertoire></tab-repertoire>
     </mat-tab>
-    <mat-tab>
-      <ng-template mat-tab-label>
-        Проекты
-      </ng-template>
+    <mat-tab label="Проекты">
       ЧЕ УЖЕ СДЕЛАЛИ
     </mat-tab>
-    <mat-tab>
-      <ng-template mat-tab-label>
-        Услуги
-      </ng-template>
+    <mat-tab label="Услуги">
       ЧЕ МЫ МОЖЕМ СДЕЛАТЬ ДЛЯ ВАС
     </mat-tab>
-    <mat-tab>
-      <ng-template mat-tab-label>
-        Команда
-      </ng-template>
+    <mat-tab label="Команда">
       ДЕВЧОНКИ В ФИОЛЕТОВОМ
     </mat-tab>
-    <mat-tab>
-      <ng-template mat-tab-label>
-        Контакты
-      </ng-template>
-      <tabs-contacts></tabs-contacts>
+    <mat-tab label="Контакты">
+      <tab-contacts></tab-contacts>
     </mat-tab>
   </mat-tab-group>
   <div class="footer">
